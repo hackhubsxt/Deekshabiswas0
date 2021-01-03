@@ -63,16 +63,16 @@ var lyr_floodproneVillages_4 = new ol.layer.Vector({
                 style: style_floodproneVillages_4,
                 interactive: true,
     title: 'flood prone Villages<br />\
-    <img src="styles/legend/floodproneVillages_4_0.png" /> 16<br />\
-    <img src="styles/legend/floodproneVillages_4_1.png" /> 17<br />\
-    <img src="styles/legend/floodproneVillages_4_2.png" /> 18<br />\
-    <img src="styles/legend/floodproneVillages_4_3.png" /> <br />'
+    <img src="styles/legend/floodproneVillages_4_0.png" /> <br />\
+    <img src="styles/legend/floodproneVillages_4_1.png" /> 16<br />\
+    <img src="styles/legend/floodproneVillages_4_2.png" /> 17<br />\
+    <img src="styles/legend/floodproneVillages_4_3.png" /> 18<br />'
         });
 
 lyr_OpenStreetMap_0.setVisible(true);lyr_SatelliteImagery_1.setVisible(true);lyr_Esri_topolayer_2.setVisible(true);lyr_revenueboundary_3.setVisible(true);lyr_floodproneVillages_4.setVisible(true);
 var layersList = [lyr_OpenStreetMap_0,lyr_SatelliteImagery_1,lyr_Esri_topolayer_2,lyr_revenueboundary_3,lyr_floodproneVillages_4];
 lyr_revenueboundary_3.set('fieldAliases', {'fid': 'fid', 'Id': 'Id', 'Name': 'Name', 'HF': 'HF', 'VHF': 'VHF', 'TF': 'TF', 'Prone': 'Prone', });
-lyr_floodproneVillages_4.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'flood_time': 'flood_time', });
+lyr_floodproneVillages_4.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'flood_time': 'Flood occurance', });
 lyr_revenueboundary_3.set('fieldImages', {'fid': 'TextEdit', 'Id': 'Range', 'Name': 'TextEdit', 'HF': 'Range', 'VHF': 'Range', 'TF': 'Range', 'Prone': 'TextEdit', });
 lyr_floodproneVillages_4.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'flood_time': 'TextEdit', });
 lyr_revenueboundary_3.set('fieldLabels', {'fid': 'no label', 'Id': 'no label', 'Name': 'inline label', 'HF': 'inline label', 'VHF': 'inline label', 'TF': 'inline label', 'Prone': 'inline label', });
